@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list-item {
+  width: fit-content;
+  display: flex;
+  gap: 24px;
+}
+.left-item {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: justify;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header img {
+  border-radius: 8px;
+}
+.left-item p {
+  color: grey;
+  font-size: 24px;
+}
+.footer {
+  font-size: 20px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  position: relative;
+}
+.save-icon {
+  position: absolute;
+
+  right: 0;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  width: fit-content;
+  margin: auto;
+}

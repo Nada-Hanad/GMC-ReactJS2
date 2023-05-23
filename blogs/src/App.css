@@ -1,0 +1,16 @@
+.clip-text {
+  display: -webkit-box;
+  max-width: 300px;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blogs-container {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(5, 345px);
+  gap: 32px;
+  margin: auto;
+  padding-top: 50px;
+}
